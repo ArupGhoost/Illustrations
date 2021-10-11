@@ -9,17 +9,17 @@ function App() {
     <div className="App">
         <div>
           <nav className='flex justify-between items-center pt-5 px-5 md:px-24'>
-            <a href='%'><h1 className='text-indigo-500 font-sans text-xl'>Ghost Web</h1></a>
+            <button ><h1 className='text-indigo-500 font-sans text-xl'>Ghost Web</h1></button>
             <div className=''>
-              <a href='#' className='pr-2 text-indigo-500 md:pr-5'>About</a>
-              <a href="#" className='pl-2 text-indigo-500 md:pl-5'>Sign In</a>
+              <button  className='pr-2 text-indigo-500 md:pr-5'>About</button>
+              <button  className='pl-2 text-indigo-500 md:pl-5'>Sign In</button>
             </div>
           </nav>
           <div className='grid grid-cols-1 pr-3 pl-12 lg:pl-24 md:grid-cols-2 md:pt-6  sm:grid-cols-1'>
             <div className='pt-12 md:pt-24'>
-              <p className='text-red-500 text-4xl md:text-5xl lg:text-6xl'>Do You Want to be a Full-Stack Developer</p>
+              <p className='text-red-500 text-4xl md:text-5xl lg:text-6xl'>Do You Want to be button Full-Stack Developer</p>
               <div className='pt-5'>
-                <a href="#" className='bg-indigo-500 text-white border solid border-indigo-500 px-4 py-2 shadow'>Join Us</a>
+                <button  className='bg-indigo-500 text-white border solid border-indigo-500 px-4 py-2 shadow'>Join Us</button>
               </div>
             </div>
             <div className='mr-12'>
